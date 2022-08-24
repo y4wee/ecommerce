@@ -18,7 +18,7 @@ const Home = ({ products, bannerData }) => {
                 ))}
             </div>
 
-            <FooterBanner />
+            <FooterBanner footerBanner={bannerData.length && bannerData[0]}/>
         </div>
     );
 };
